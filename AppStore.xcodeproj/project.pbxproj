@@ -14,6 +14,7 @@
 		03670B80203C4441005E4238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03670B7E203C4441005E4238 /* LaunchScreen.storyboard */; };
 		03670B88203C5365005E4238 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670B87203C5365005E4238 /* CategoryCell.swift */; };
 		03670B8B203C7BD6005E4238 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670B8A203C7BD6005E4238 /* AppCell.swift */; };
+		0372A508203F20BB00D42754 /* AppDescriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0372A507203F20BB00D42754 /* AppDescriptionTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		03670B81203C4441005E4238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03670B87203C5365005E4238 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		03670B8A203C7BD6005E4238 /* AppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		0372A507203F20BB00D42754 /* AppDescriptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDescriptionTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				03670B87203C5365005E4238 /* CategoryCell.swift */,
 				03670B8A203C7BD6005E4238 /* AppCell.swift */,
+				0372A507203F20BB00D42754 /* AppDescriptionTextView.swift */,
 			);
 			path = MyCalsses;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				03670B78203C4441005E4238 /* FeaturedAppsController.swift in Sources */,
 				03670B8B203C7BD6005E4238 /* AppCell.swift in Sources */,
 				03670B76203C4441005E4238 /* AppDelegate.swift in Sources */,
+				0372A508203F20BB00D42754 /* AppDescriptionTextView.swift in Sources */,
 				03670B88203C5365005E4238 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

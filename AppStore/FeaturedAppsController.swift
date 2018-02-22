@@ -21,14 +21,13 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
         super.viewDidLoad()
         // Customizing the collectionView
         collectionView?.backgroundColor = UIColor.white
-        
         // Register cells for the collectionView
         collectionView?.register(CategoryCell.self, forCellWithReuseIdentifier: cellId) // CHANGE IT: Why without UINib???
     }
     // MARK: UICollectionViewDelegate
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CategoryCell
-        
+        cell.configureCell()
         return cell
     }
     
@@ -38,7 +37,7 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
     
     // MARK: UICollectionViewDelegateFlowLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: 150)
+        return CGSize(width: view.frame.width, height: 230)
     }
     // ===========================================================================
 
